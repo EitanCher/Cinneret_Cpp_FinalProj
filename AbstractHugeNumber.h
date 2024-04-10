@@ -10,6 +10,6 @@ public:
 	virtual operator double() = 0;
 	
 	virtual AbstractHugeNumber* operator+(AbstractHugeNumber& other) = 0;
-	virtual operator string() {	return GetStringAsNumber();	}
-	virtual string& GetStringAsNumber()	{ return hugeNumAsString; }
+	virtual operator string() { return GetStringAsNumber();	}
+	virtual string& GetStringAsNumber() { return hugeNumAsString; }
 };
